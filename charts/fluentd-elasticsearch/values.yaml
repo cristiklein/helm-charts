@@ -217,7 +217,7 @@ configMaps:
     outputConf: true
 
 # can be used to add new config or overwrite the default configmaps completely after the configmaps default has been disabled above
-extraConfigMaps:
+extraConfigMaps: {}
   # system.conf: |-
   #   <system>
   #     root_dir /tmp/fluentd-buffers/
