@@ -1,0 +1,19 @@
+# Default values for enmasse.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+operator:
+  replicaCount: 1
+apiServer:
+  replicaCount: 1
+addressSpaceController:
+  replicaCount: 1
+
+image:
+  repository: nginx
+  tag: stable
+  pullPolicy: IfNotPresent
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
